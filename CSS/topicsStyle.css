@@ -1,0 +1,65 @@
+.button-grid {
+    display: grid;
+    grid-template-columns: 150px 150px 150px; /* 2 columns */
+    grid-template-rows: repeat(3, 150px); /* 3 rows */
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.middle-button {
+    grid-column: 2 / 3; /* Span across all columns in the middle row */
+    grid-row: 2 / 3; /* Place in the second row */
+}
+
+.left-top {
+    grid-column: 1 / 2; /* First column */
+    grid-row: 1 / 2; /* First row */
+}
+
+.left-middle {
+    grid-column: 1 / 2; /* First column */
+    grid-row: 2 / 3; /* Second row */
+}
+
+.left-bottom {
+    grid-column: 1 / 2; /* First column */
+    grid-row: 3 / 4; /* Third row */
+}
+
+.right-top {
+    grid-column: 3 / 4; /* Third column */
+    grid-row: 1 / 2; /* First row */
+}
+
+.right-middle {
+    grid-column: 3 / 4; /* Third column */
+    grid-row: 2 / 3; /* Second row */
+}
+
+.right-bottom {
+    grid-column: 3 / 4; /* Third column */
+    grid-row: 3 / 4; /* Third row */
+}
+
+.age-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.yellow{
+    background-color: #f6931b;
+}
+
+
+.red { background-color: #d91b5b; }
+.purple { background-color: #5d2c91; }
