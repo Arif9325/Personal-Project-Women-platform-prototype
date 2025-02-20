@@ -1,6 +1,11 @@
 function includeHTML(elementId, filePath) {
-    fetch(filePath)
-        .then(response => response.text())
+    fetch(window.location.origin + filePath) // Ensures absolute URL
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.text();
+        })
         .then(data => {
             document.getElementById(elementId).innerHTML = data;
         })
