@@ -4,7 +4,7 @@ const basePath = repoName ? `/${repoName}` : ''; // Ensures the correct base pat
 const navbarHTML = `
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="${basePath}/Web/en/HomePage.html">
+            <a class="navbar-brand" href="${basePath}/en/HomePage.html">
                 <img src="/Img/logo.png" alt="EmpowerHer Logo" class="navbar-logo">
             </a>
             <ul class="navbar-nav d-flex justify-content-center flex-grow-1 gap-4">
