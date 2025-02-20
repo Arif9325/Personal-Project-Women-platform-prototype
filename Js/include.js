@@ -9,7 +9,7 @@ const navbarHTML = `
             </a>
             <ul class="navbar-nav d-flex justify-content-center flex-grow-1 gap-4">
                 <li class="nav-item">
-                    <a class="nav-link" href="/Web/en/20s/topics.html">20s</a>
+                    <a class="nav-link" href="${basePath}/en/20s/topics.html">20s</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">30s</a>
@@ -35,7 +35,7 @@ const navbarHTML = `
 const footerHTML = `
     <footer class="footer-container">
         <div class="footer-logo">
-            <img src="/Img/HPVLogo.png" alt="HPV Global Action Logo">
+            <img src="${basePath}/Img/HPVLogo.png" alt="HPV Global Action Logo">
             <div class="links">
                 <a href="#" class="footer-link">PRIVACY POLICY</a>
                 <a href="#" class="footer-link">FIRST NATIONS TERRITORY ACKNOWLEDGEMENT</a>  
